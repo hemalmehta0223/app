@@ -1,0 +1,61 @@
+{
+  "homepage": "https://hemalmehta0223.github.io/app",
+  "name": "app",
+  "author": "Hemal Mehta",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@material-ui/styles": "^4.11.4",
+    "chart.js": "^3.5.1",
+    "formik": "^2.1.5",
+    "heroicons-react": "^1.4.1",
+    "history": "^5.0.0",
+    "moment": "^2.27.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.5",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-number-format": "^4.7.3",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-router": "^6.0.0-beta.5",
+    "react-router-dom": "^6.0.0-beta.5",
+    "react-scripts": "^4.0.3",
+    "uuid": "^8.3.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/404.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
