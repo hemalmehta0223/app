@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "checkJs": true,
-    "jsx": "react",
-    "module": "es2015"
-  },
-  "include": ["src"]
-}
